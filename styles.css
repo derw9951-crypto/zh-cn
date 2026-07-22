@@ -98,12 +98,30 @@ h1 em { color: var(--blue); font-style: normal; }
 .heading-row { display: flex; align-items: end; justify-content: space-between; gap: 24px; }
 .text-link { color: var(--blue); font: 500 11px "DM Mono", monospace; text-transform: uppercase; letter-spacing: .07em; white-space: nowrap; }
 .publication-list { border-top: 1px solid var(--line); }
-.publication-item { display: grid; grid-template-columns: 72px minmax(0, 1.6fr) minmax(130px, .75fr) 140px; gap: 22px; align-items: center; padding: 24px 0; border-bottom: 1px solid var(--line); transition: padding .2s, color .2s; }
-.publication-item:hover { padding-left: 12px; color: var(--blue); }
-.pub-year, .pub-citations { color: var(--muted); font: 10px "DM Mono", monospace; }
-.pub-title { font-size: 16px; font-weight: 700; line-height: 1.45; letter-spacing: -.025em; }
-.pub-venue { color: var(--muted); font-size: 12px; font-style: italic; }
-.pub-citations { text-align: right; }
+       /* 作者行 */
+    .publication-item { grid-template-columns: 70px 1fr auto; }
+    .pub-main { grid-column: 2; }
+    .pub-authors { display: block; font-size: 12.5px; color: var(--ink-soft); margin-top: 6px; line-height: 1.6; }
+    .pub-authors .me { color: var(--accent); font-weight: 700; }
+    .pub-venue { margin-top: 5px; }
+
+    /* 引用下拉 */
+    .cite-wrap { grid-column: 3; align-self: center; position: relative; }
+    .cite-btn { display: inline-flex; align-items: center; gap: 6px; font-family: "DM Mono", monospace; font-size: 11px; padding: 7px 12px; border-radius: 20px; border: 1px solid var(--line); background: var(--bg-elev); color: var(--ink-soft); cursor: pointer; white-space: nowrap; transition: border-color .2s, color .2s; }
+    .cite-btn:hover, .cite-wrap.open .cite-btn { border-color: var(--accent); color: var(--accent); }
+    .cite-btn .caret { transition: transform .2s; }
+    .cite-wrap.open .caret { transform: rotate(180deg); }
+    .cite-menu { position: absolute; right: 0; top: calc(100% + 8px); z-index: 30; min-width: 150px; background: var(--bg-elev); border: 1px solid var(--line); border-radius: 12px; padding: 6px; box-shadow: 0 12px 32px rgba(0,0,0,.18); opacity: 0; visibility: hidden; transform: translateY(-6px); transition: opacity .2s, transform .2s, visibility .2s; }
+    .cite-wrap.open .cite-menu { opacity: 1; visibility: visible; transform: translateY(0); }
+    .cite-menu button { display: flex; justify-content: space-between; align-items: center; gap: 12px; width: 100%; text-align: left; font-family: "DM Mono", monospace; font-size: 11.5px; padding: 8px 10px; border: none; border-radius: 7px; background: transparent; color: var(--ink); cursor: pointer; transition: background .15s, color .15s; }
+    .cite-menu button:hover { background: color-mix(in srgb, var(--accent) 12%, transparent); color: var(--accent); }
+    .cite-menu button .tick { color: #26c281; font-weight: 700; }
+    @media (max-width: 900px) {
+      .publication-item { grid-template-columns: 1fr; }
+      .pub-main, .cite-wrap { grid-column: 1; }
+      .cite-wrap { justify-self: start; margin-top: 8px; }
+      .cite-menu { right: auto; left: 0; }
+    }
 .projects-section { border-bottom: 0; padding-bottom: 110px; }
 .project-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .project-card { min-height: 290px; padding: 25px; display: flex; flex-direction: column; justify-content: space-between; border: 1px solid var(--line); transition: transform .2s, box-shadow .2s; }
@@ -161,3 +179,12 @@ h1 em { color: var(--blue); font-style: normal; }
   .about-facts { grid-column: auto; grid-template-columns: 1fr; }
   .site-footer { flex-direction: column; gap: 10px; }
 }
+    .heading-actions { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+    .bib-all-btn { font-family: "DM Mono", monospace; font-size: 11.5px; padding: 8px 14px; border-radius: 20px; border: 1px solid var(--line); background: var(--bg-elev); color: var(--ink-soft); cursor: pointer; white-space: nowrap; transition: border-color .2s, color .2s, background .2s; }
+    .bib-all-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .bib-all-btn.done { border-color: #26c281; color: #26c281; }
+    @media (max-width: 640px) {
+      .heading-actions { gap: 12px; }
+      .bib-all-btn { font-size: 11px; padding: 7px 12px; }
+    }
+
