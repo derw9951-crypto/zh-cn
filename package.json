@@ -1,0 +1,13 @@
+{
+  "name": "academic-homepage",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "citations": "node scripts/update-citations.mjs",
+    "og": "node scripts/generate-og.mjs",
+    "build:assets": "npm run citations && npm run og"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}
