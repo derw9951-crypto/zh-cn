@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-07-22T15:18:05.052Z",
+  "items": {
+    "p1": {
+      "nature": "Gao, L. et al. Morphology-defect synergy in Cs2PdBr6 perovskite nanocrystals for enhanced photocatalytic CO2-to-CO conversion. eScience 6, 100508 (2026).",
+      "gbt": "Gao L, Wu D, Huang Y, et al. Morphology-defect synergy in Cs2PdBr6 perovskite nanocrystals for enhanced photocatalytic CO2-to-CO conversion[J]. eScience, 2026, 6: 100508. DOI:10.1016/j.esci.2025.100508.",
+      "bibtex": "@article{gao2026morphology,\n  title  = {Morphology-defect synergy in Cs2PdBr6 perovskite nanocrystals for enhanced photocatalytic CO2-to-CO conversion},\n  author = {Gao, Liqin and Wu, Daofu and Huang, Yanyi and Zhang, Wenxia and Liu, Yongfeng and Tang, Xiaosheng},\n  journal= {eScience},\n  volume = {6},\n  pages  = {100508},\n  year   = {2026},\n  doi    = {10.1016/j.esci.2025.100508}\n}",
+      "meta": {
+        "title": "Morphology-defect synergy in Cs2PdBr6 perovskite nanocrystals for enhanced photocatalytic CO2-to-CO conversion",
+        "year": 2026,
+        "journal": "eScience",
+        "url": "https://doi.org/10.1016/j.esci.2025.100508",
+        "doi": "10.1016/j.esci.2025.100508"
+      },
+      "note": "共同第一 & 共同通讯"
+    },
+    "p2": {
+      "nature": "Fang, J. et al. Constructing cascaded multi-heterojunction system with ultrafast electron transfer for enhanced photocatalytic CO2 reduction. Adv Compos Hybrid Mater 8, 336 (2025).",
+      "gbt": "Fang J, Zhang J, Han Y, et al. Constructing cascaded multi-heterojunction system with ultrafast electron transfer for enhanced photocatalytic CO2 reduction[J]. Advanced Composites and Hybrid Materials, 2025, 8: 336. DOI:10.1007/s42114-025-01400-3.",
+      "bibtex": "@article{fang2025constructing,\n  title  = {Constructing cascaded multi-heterojunction system with ultrafast electron transfer for enhanced photocatalytic CO2 reduction},\n  author = {Fang, Junan and Zhang, Jiajing and Han, Yaqin and Xu, Jingyin and He, Xuefeng and Ran, Hongmei and Chen, Wei and An, Jia and Wu, Daofu and Tang, Xiaosheng and Liu, Yufei},\n  journal= {Advanced Composites and Hybrid Materials},\n  volume = {8},\n  pages  = {336},\n  year   = {2025},\n  doi    = {10.1007/s42114-025-01400-3}\n}",
+      "meta": {
+        "title": "Constructing cascaded multi-heterojunction system with ultrafast electron transfer for enhanced photocatalytic CO2 reduction",
+        "year": 2025,
+        "journal": "Adv Compos Hybrid Mater",
+        "url": "https://doi.org/10.1007/s42114-025-01400-3",
+        "doi": "10.1007/s42114-025-01400-3"
+      },
+      "note": "共同通讯"
+    },
+    "p3": {
+      "nature": "Ran, H. et al. Ligand-engineered Cu-based halide perovskite for highly efficient near-infrared photocatalytic CO2 reduction. Applied Catalysis B: Environment and Energy 352, 124048 (2024).",
+      "gbt": "Ran H, Wu D, Chen W, et al. Ligand-engineered Cu-based halide perovskite for highly efficient near-infrared photocatalytic CO2 reduction[J]. Applied Catalysis B: Environment and Energy, 2024, 352: 124048. DOI:10.1016/j.apcatb.2024.124048.",
+      "bibtex": "@article{ran2024ligand,\n  title  = {Ligand-engineered Cu-based halide perovskite for highly efficient near-infrared photocatalytic CO2 reduction},\n  author = {Ran, Hongmei and Wu, Daofu and Chen, Wei and Liu, Yichen and Gao, Liqin and Zhou, Jinchen and Gao, Bo and Lai, Junan and Luo, Heng and Kuang, Faguang and Mo, Min and Luo, Zhiqiong and Dong, Fan and Ma, Hao and Zhang, Qian and Ling, Faling and Sun, Baofei and Tang, Xiaosheng},\n  journal= {Applied Catalysis B: Environment and Energy},\n  volume = {352},\n  pages  = {124048},\n  year   = {2024},\n  doi    = {10.1016/j.apcatb.2024.124048}\n}",
+      "meta": {
+        "title": "Ligand-engineered Cu-based halide perovskite for highly efficient near-infrared photocatalytic CO2 reduction",
+        "year": 2024,
+        "journal": "Applied Catalysis B: Environment and Energy",
+        "url": "https://doi.org/10.1016/j.apcatb.2024.124048",
+        "doi": "10.1016/j.apcatb.2024.124048"
+      },
+      "note": "共同通讯"
+    },
+    "p4": {
+      "nature": "Zhou, J. et al. Enhanced Photocatalytic Activity of Lead‐Free Cs<sub>2</sub>TeBr<sub>6</sub>/g‐C<sub>3</sub>N<sub>4</sub> Heterojunction Photocatalyst and Its Mechanism. Adv Funct Materials 34, 2308411 (2023).",
+      "gbt": "Zhou J, Gao B, Wu D, et al. Enhanced Photocatalytic Activity of Lead‐Free Cs<sub>2</sub>TeBr<sub>6</sub>/g‐C<sub>3</sub>N<sub>4</sub> Heterojunction Photocatalyst and Its Mechanism[J]. Advanced Functional Materials, 2023, 34: 2308411. DOI:10.1002/adfm.202308411.",
+      "bibtex": "@article{zhou2023enhanced,\n  title  = {Enhanced Photocatalytic Activity of Lead‐Free Cs<sub>2</sub>TeBr<sub>6</sub>/g‐C<sub>3</sub>N<sub>4</sub> Heterojunction Photocatalyst and Its Mechanism},\n  author = {Zhou, Jinchen and Gao, Bo and Wu, Daofu and Tian, Changqing and Ran, Hongmei and Chen, Wei and Huang, Qiang and Zhang, Wenxia and Qi, Fei and Zhang, Nan and Pu, Yayun and Qiu, Jing and Hu, Zhiping and Du, Juan and Liu, Zhengzheng and Leng, Yuxin and Tang, Xiaosheng},\n  journal= {Advanced Functional Materials},\n  volume = {34},\n  pages  = {2308411},\n  year   = {2023},\n  doi    = {10.1002/adfm.202308411}\n}",
+      "meta": {
+        "title": "Enhanced Photocatalytic Activity of Lead‐Free Cs<sub>2</sub>TeBr<sub>6</sub>/g‐C<sub>3</sub>N<sub>4</sub> Heterojunction Photocatalyst and Its Mechanism",
+        "year": 2023,
+        "journal": "Adv Funct Materials",
+        "url": "https://doi.org/10.1002/adfm.202308411",
+        "doi": "10.1002/adfm.202308411"
+      },
+      "note": "共同通讯"
+    },
+    "p5": {
+      "nature": "Gao, B. et al. Copper Modulated Lead‐Free Cs<sub>4</sub>MnSb<sub>2</sub>Cl<sub>12</sub> Double Perovskite Microcrystals for Photocatalytic Reduction of CO<sub>2</sub>. Advanced Science 11, 2307543 (2023).",
+      "gbt": "Gao B, Tian C, Guo L, et al. Copper Modulated Lead‐Free Cs<sub>4</sub>MnSb<sub>2</sub>Cl<sub>12</sub> Double Perovskite Microcrystals for Photocatalytic Reduction of CO<sub>2</sub>[J]. Advanced Science, 2023, 11: 2307543. DOI:10.1002/advs.202307543.",
+      "bibtex": "@article{gao2023copper,\n  title  = {Copper Modulated Lead‐Free Cs<sub>4</sub>MnSb<sub>2</sub>Cl<sub>12</sub> Double Perovskite Microcrystals for Photocatalytic Reduction of CO<sub>2</sub>},\n  author = {Gao, Bo and Tian, Changqing and Guo, Linfeng and Zhou, Jinchen and Wang, Zixian and Fu, Chengfan and Ran, Hongmei and Chen, Wei and Huang, Qiang and Wu, Daofu and Tang, Xiaosheng and Luo, Zhongtao},\n  journal= {Advanced Science},\n  volume = {11},\n  pages  = {2307543},\n  year   = {2023},\n  doi    = {10.1002/advs.202307543}\n}",
+      "meta": {
+        "title": "Copper Modulated Lead‐Free Cs<sub>4</sub>MnSb<sub>2</sub>Cl<sub>12</sub> Double Perovskite Microcrystals for Photocatalytic Reduction of CO<sub>2</sub>",
+        "year": 2023,
+        "journal": "Advanced Science",
+        "url": "https://doi.org/10.1002/advs.202307543",
+        "doi": "10.1002/advs.202307543"
+      },
+      "note": "共同通讯"
+    }
+  }
+}
