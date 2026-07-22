@@ -1,0 +1,14 @@
+{
+  "profile": {
+    "name": "吴道福 · Daofu Wu",
+    "role": "Perovskite Photocatalysis · CO₂ Reduction",
+    "highlightAuthor": "Wu, Daofu"
+  },
+  "publications": [
+    { "id": "p1", "doi": "10.1016/j.esci.2025.100508", "note": "共同第一 & 共同通讯" },
+    { "id": "p2", "doi": "10.1007/s42114-025-01400-3", "note": "共同通讯" },
+    { "id": "p3", "doi": "10.1016/j.apcatb.2024.124048", "note": "共同通讯" },
+    { "id": "p4", "doi": "10.1002/adfm.202308411", "note": "共同通讯" },
+    { "id": "p5", "doi": "10.1002/advs.202307543", "note": "共同通讯" }
+  ]
+}
