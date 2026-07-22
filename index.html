@@ -362,11 +362,27 @@
     .honor-block { padding: 24px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper-tint); box-shadow: 0 12px 34px rgba(15,30,60,.035); }
     .about-portrait { box-shadow: 0 18px 40px rgba(15,30,60,.14); }
     .site-footer { margin-top: 28px; }
+    .hero-focus-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;max-width:590px;margin:24px 0 0}.focus-item{min-height:82px;padding:12px 13px;border:1px solid color-mix(in srgb,var(--accent) 14%,var(--line));border-radius:13px;background:color-mix(in srgb,var(--bg-elev) 86%,transparent);box-shadow:0 8px 22px rgba(15,30,60,.035)}.focus-item span{display:block;margin-bottom:5px;font:9px "DM Mono",monospace;letter-spacing:.8px;color:var(--accent)}.focus-item strong{display:block;font-size:12px;line-height:1.55;color:var(--ink-soft)}
+    .hero-visual{height:auto;min-height:446px;display:block}.hero-visual::before{content:none}.research-map{position:relative;overflow:hidden;min-height:446px;padding:26px;border:1px solid color-mix(in srgb,var(--accent) 20%,var(--line));border-radius:24px;background:linear-gradient(145deg,color-mix(in srgb,var(--bg-elev) 95%,#eaf1ff),var(--bg-elev));box-shadow:0 26px 60px rgba(24,55,107,.13)}.research-map::before,.research-map::after{content:"";position:absolute;border-radius:50%;pointer-events:none}.research-map::before{width:230px;height:230px;right:-115px;top:-125px;border:1px solid rgba(47,109,246,.18);box-shadow:0 0 0 28px rgba(47,109,246,.035),0 0 0 58px rgba(47,109,246,.02)}.research-map::after{width:160px;height:160px;left:-78px;bottom:-92px;background:radial-gradient(circle,rgba(38,194,129,.11),transparent 68%)}
+    .map-header,.map-legend,.map-flow,.map-evidence,.map-footer{position:relative;z-index:1}.map-header{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}.map-kicker{margin-bottom:3px;font:10px "DM Mono",monospace;letter-spacing:1px;color:var(--accent)}.map-header h2{margin:0;font-size:17px;line-height:1.35;letter-spacing:-.35px}.map-index{padding:6px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font:10px "DM Mono",monospace;white-space:nowrap}.map-legend{display:flex;gap:11px;flex-wrap:wrap;margin:13px 0 20px;color:var(--ink-faint);font-size:10px}.map-legend span{display:inline-flex;align-items:center;gap:5px}.legend-dot{width:7px;height:7px;border-radius:50%;display:inline-block}.legend-dot.blue{background:var(--accent)}.legend-dot.green{background:#26c281}.legend-dot.ink{background:var(--ink)}
+    .map-flow{display:grid;grid-template-columns:.85fr 1.15fr .9fr;gap:12px}.map-stage{position:relative;min-height:187px;padding:15px 12px 13px;border:1px solid color-mix(in srgb,var(--accent) 14%,var(--line));border-radius:16px;background:color-mix(in srgb,var(--bg-elev) 88%,transparent)}.map-stage:not(:last-child)::after{content:"";position:absolute;z-index:2;top:50%;right:-11px;width:10px;border-top:1px dashed color-mix(in srgb,var(--accent) 55%,var(--line))}.map-stage:not(:last-child)::before{content:"›";position:absolute;z-index:3;top:calc(50% - 13px);right:-13px;color:var(--accent);font-size:20px}.stage-number{position:absolute;top:10px;right:10px;font:9px "DM Mono",monospace;color:var(--ink-faint)}.stage-icon{height:54px;display:flex;align-items:center;justify-content:center;margin:12px 0 8px}.map-stage h3{margin:0 0 4px;font:11px "DM Mono",monospace;color:var(--ink)}.map-stage p{margin:0;color:var(--ink-faint);font-size:10px;line-height:1.55}.stage-catalyst{border-color:rgba(47,109,246,.28);background:linear-gradient(165deg,color-mix(in srgb,var(--accent-soft) 72%,var(--bg-elev)),var(--bg-elev));box-shadow:0 10px 22px rgba(47,109,246,.08)}.stage-tag{position:absolute;left:12px;bottom:12px;padding:3px 6px;border-radius:999px;background:rgba(47,109,246,.1);color:var(--accent);font:8px "DM Mono",monospace}
+    .molecule-icon{gap:4px}.molecule-icon b{display:grid;place-items:center;width:20px;height:20px;border-radius:50%;background:#ff7a73;color:#fff;font:700 9px "DM Mono",monospace}.molecule-icon i{position:relative;display:grid;place-items:center;width:29px;height:29px;border-radius:50%;background:var(--ink);color:#fff;font:700 11px "DM Mono",monospace;font-style:normal}.molecule-icon i::before,.molecule-icon i::after{content:"";position:absolute;width:13px;border-top:2px solid #8ea9e8}.molecule-icon i::before{right:22px;transform:rotate(-14deg)}.molecule-icon i::after{left:22px;transform:rotate(14deg)}.catalyst-icon{position:relative}.catalyst-icon i{position:absolute;width:22px;height:22px;border:1px solid rgba(47,109,246,.4);border-radius:50%}.catalyst-icon i:nth-child(1){transform:translate(-25px,-13px)}.catalyst-icon i:nth-child(2){transform:translate(25px,-13px)}.catalyst-icon i:nth-child(3){transform:translate(0,22px)}.catalyst-icon b{z-index:1;display:grid;place-items:center;width:32px;height:32px;border-radius:10px;background:linear-gradient(145deg,var(--accent),#1b469f);color:#fff;font:700 11px "DM Mono",monospace;box-shadow:0 7px 16px rgba(47,109,246,.25)}.product-icon{gap:4px}.product-icon span{display:grid;place-items:center;min-width:31px;height:31px;padding:0 4px;border-radius:9px;background:var(--accent-soft);color:var(--accent-deep);font:700 10px "DM Mono",monospace}.product-icon span:nth-child(2){margin-top:13px;background:rgba(38,194,129,.14);color:#158355}.product-icon span:nth-child(3){background:var(--ink);color:#fff}
+    .map-evidence{margin-top:14px;padding:12px 13px;border:1px solid color-mix(in srgb,var(--accent) 11%,var(--line));border-radius:14px;background:color-mix(in srgb,var(--bg-elev) 78%,transparent)}.evidence-title{display:flex;justify-content:space-between;gap:10px;font-size:10px;color:var(--ink-faint)}.evidence-title strong{color:var(--accent);font:9px "DM Mono",monospace}.evidence-track{display:grid;grid-template-columns:repeat(8,1fr);align-items:end;gap:3px;height:24px;margin:6px 0 8px}.evidence-track i{display:block;height:28%;border-radius:4px 4px 1px 1px;background:linear-gradient(var(--accent),#9eb9ff)}.evidence-track i:nth-child(2){height:48%}.evidence-track i:nth-child(3){height:38%}.evidence-track i:nth-child(4){height:86%;background:linear-gradient(#26c281,#8ee1ba)}.evidence-track i:nth-child(5){height:62%}.evidence-track i:nth-child(6){height:75%}.evidence-track i:nth-child(7){height:43%}.evidence-track i:nth-child(8){height:64%}.method-chips{display:flex;gap:6px;flex-wrap:wrap}.method-chips span{padding:3px 6px;border:1px solid var(--line);border-radius:999px;color:var(--ink-soft);font:8px "DM Mono",monospace}.map-footer{display:flex;justify-content:space-between;gap:10px;margin-top:13px;color:var(--ink-faint);font:9px "DM Mono",monospace;letter-spacing:.4px}.map-footer strong{color:var(--accent);white-space:nowrap}
     @media (max-width: 900px) {
       .site-header { margin-inline: 0; padding-inline: 12px; }
       .hero { min-height: auto; padding-top: 58px; }
       .hero-copy::before { left: -10px; height: 70px; }
       .hero-copy h1 { font-size: clamp(36px, 10vw, 52px); }
+      .hero-focus-grid { grid-template-columns: 1fr; max-width: none; }
+      .focus-item { min-height: auto; }
+      .hero-visual { min-height: auto; margin-top: 4px; }
+      .research-map { min-height: auto; padding: 20px; }
+      .map-flow { gap: 8px; }
+      .map-stage { min-height: 170px; padding-inline: 9px; }
+      .map-stage h3 { font-size: 10px; }
+      .map-stage p { font-size: 9px; }
+      .map-stage:not(:last-child)::after { right: -7px; width: 6px; }
+      .map-stage:not(:last-child)::before { right: -10px; }
       .timeline { padding-left: 42px; }
     }
   </style>
@@ -395,21 +411,33 @@
           <p class="eyebrow"><span class="status-dot"></span> Postdoc · 大连化物所 DICP, CAS</p>
           <h1 id="hero-title">让 CO₂ <em>从排放</em>，<br /><span class="hero-title-muted">走向</span><em>资源</em>。</h1>
           <p class="hero-lead">吴道福，能源与环境催化方向研究者。聚焦 CO₂ 光/电催化还原、无铅钙钛矿与单原子催化剂设计，并借助原位穆斯堡尔谱等表征技术深入解析催化反应机理。</p>
+          <div class="hero-focus-grid" aria-label="研究重点">
+            <div class="focus-item"><span>研究对象</span><strong>CO₂ 光/电催化还原</strong></div>
+            <div class="focus-item"><span>材料体系</span><strong>无铅钙钛矿 · 原子催化剂</strong></div>
+            <div class="focus-item"><span>机制工具</span><strong>原位光谱 · Mössbauer · DFT</strong></div>
+          </div>
           <div class="hero-actions">
             <a class="button button-primary" href="https://scholar.google.com/citations?hl=zh-CN&user=w8wNb04AAAAJ" target="_blank" rel="noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
             <a class="button button-ghost" href="mailto:daofuwu@163.com">联系我 <span aria-hidden="true">→</span></a>
           </div>
           <div class="hero-meta"><span>中国科学院大连化学物理研究所</span><span aria-hidden="true">·</span><span>重庆大学（博士）</span></div>
         </div>
-        <div class="hero-visual" aria-hidden="true">
-          <div class="orbit orbit-one"></div>
-          <div class="orbit orbit-two"></div>
-          <div class="orbit orbit-three"></div>
-          <div class="core-card"><div class="monogram">DW</div><div class="core-label">CO₂<br /><span>UPCYCLE</span></div></div>
-          <div class="floating-tag tag-top">CO₂ → C₂₊</div>
-          <div class="floating-tag tag-bottom">single-atom / in situ</div>
-          <div class="visual-caption">CATALYSIS<br /><span>FIELD NOTE 01</span></div>
-        </div>
+        <aside class="hero-visual reveal" aria-label="CO₂ 资源化研究图谱">
+          <div class="research-map">
+            <div class="map-header">
+              <div><p class="map-kicker">CO₂ CONVERSION RESEARCH MAP</p><h2>催化设计 · 机制解析 · 碳产物</h2></div>
+              <span class="map-index">01 / 03</span>
+            </div>
+            <div class="map-legend"><span><i class="legend-dot blue"></i>光 / 电驱动</span><span><i class="legend-dot green"></i>原位追踪</span><span><i class="legend-dot ink"></i>理论验证</span></div>
+            <div class="map-flow">
+              <article class="map-stage stage-feed"><span class="stage-number">01</span><div class="stage-icon molecule-icon"><b>O</b><i>C</i><b>O</b></div><h3>CO₂ Feed</h3><p>捕获并活化<br />碳循环起点</p></article>
+              <article class="map-stage stage-catalyst"><span class="stage-number">02</span><div class="stage-icon catalyst-icon"><i></i><i></i><i></i><b>Fe</b></div><h3>Active site</h3><p>钙钛矿 · 单/双/三原子<br />微环境与配体工程</p><span class="stage-tag">C–C coupling</span></article>
+              <article class="map-stage stage-product"><span class="stage-number">03</span><div class="stage-icon product-icon"><span>CO</span><span>CH₄</span><span>C₂+</span></div><h3>Carbon products</h3><p>选择性调控<br />高值化转化</p></article>
+            </div>
+            <div class="map-evidence"><div class="evidence-title"><span>Mechanistic evidence</span><strong>Operando / In situ</strong></div><div class="evidence-track"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="method-chips"><span>Mössbauer</span><span>Operando spectroscopy</span><span>DFT simulation</span></div></div>
+            <div class="map-footer"><span>CATALYST → MECHANISM → PRODUCTS</span><strong>CO₂ UPCYCLING</strong></div>
+          </div>
+        </aside>
       </section>
 
       <section class="stats-strip reveal" aria-label="学术统计">
